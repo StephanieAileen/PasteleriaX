@@ -1,0 +1,173 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.child1 {
+  border: 2px solid white;
+  margin: 10px;
+}
+
+.child2 {
+  margin-right: 10px;
+}
+
+.contenedor {
+  max-height: 200px;
+  min-width: auto;
+  display: inline-flexbox;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+.elemento {
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-color: beige;
+  border-width: 20px;
+  padding: 10px;
+  flex-grow: inherit;
+}
+
+.descripcion {
+  align-self: flex-end;
+  align-self: center;
+}
+
+.note {
+  font-style: italic;
+  font-size: smaller;
+}
+
+.div3 {
+  min-height: 60px;
+  background-color: #bae8d9;
+  text-align: center;
+}
+
+p.justificado {
+  text-align: justify;
+}
+
+.left {
+  text-align: left;
+  padding-left: 1ch;
+}
+
+.right {
+  text-align: right;
+  padding-right: 1ch;
+}
+.center {
+  text-align: center;
+  text-decoration: solid;
+}
+
+.party {
+  background-color: snow;
+  background-image: url(https://img.freepik.com/premium-photo/happy-birthday-party-background_87742-15348.jpg?w=2000);
+  height: initial;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.boldtitle {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.calabaza {
+  background-color: #ffdfd3;
+}
+
+.fresa {
+  background-color: #fec8d8;
+}
+
+.vainilla {
+  background-color: #fcf7f3;
+}
+
+.titulo {
+  background-color: #ece9dd;
+}
+.red {
+  background-color: #d291bc;
+}
+
+.choco {
+  background-color: #e4cea7;
+}
+
+.coco {
+  background-color: #faf0e0;
+}
+
+.dir {
+  max-height: 200px;
+  min-width: auto;
+  display: inline-flexbox;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.final {
+  background-color: #bee8e6;
+  font-size: small;
+  max-height: min-content;
+}
+
+.parent {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  border: 5px solid rgba(0, 0, 0, 0.397);
+  width: 50%;
+  padding: 20px;
+  margin-left: 25%;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  place-items: center;
+  margin: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.397);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.159);
+}
+footer {
+  background-color: #ece9dd;
+  border: solid 5px;
+  padding: 50px;
+  text-align: center;
+  color: black;
+  border-color: rgba(0, 0, 0, 0.397);
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .hidden {
+    display: none;
+  }
+
+  .parent {
+    border: none;
+  }
+}
